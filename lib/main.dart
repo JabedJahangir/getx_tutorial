@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-
-import 'home_screen.dart';
+import 'package:getx_tutorial/api_data_show.dart';
 
 void main() {
   runApp(MyApp());
@@ -12,8 +11,6 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return GetMaterialApp(
-      home: GenderSelection(),
-    );
+    return GetMaterialApp(home: ApiDataShow());
   }
 }
